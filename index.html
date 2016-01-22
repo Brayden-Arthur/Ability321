@@ -1,25 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-	<title>UVic RPG</title>
-	<link rel="stylesheet" href="css/ability.css" type="text/css">
+	<title>UVic RPG - Ability</title>
+	<link rel="stylesheet" type="text/css" href="css/ability.css">
 </head>
+
 <body>
-	<img src="images/AbilitySmall.png" alt="Ability" align="left"></img>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<p>
-		The UVic text-based RPG will make you tremble
-	</p>
-	<br/>
-	<br/>
-	<br/>
-	<p>
-		No really
-	</p>
+	<div id="logo">
+		<a href="index.html"><img src="images/AbilitySmall.png" height="50px" width="70px"></a>
+	</div>
+	<div id="nav">
+		<a href="index.html"><strong>></strong> Home</a><br>
+		<a href="about-us.html"><strong>></strong> About Us</a><br>
+		<a href="project-deliverables.html"><strong>></strong> Project Deliverables</a><br>
+	</div>
+	<div id="content">
+		We will be taking a lot of inspiration for the text based RPG from other RPGs and roguelikes. A great example of a good text based game is Zork. It lays out and describes the characters current surroundings with text like <br><br>
+		
+		<div id="zork">
+		<p style="background-color:white;color:black;padding-left:5px;">WEST OF HOUSE</p>
+		
+		This is an open field west of a white house, with a boarded front door.<br><br>
+		There is a small mailbox here.<br><br>
+		A rubber mat saying 'Welcome to Zork!' lies by the door.<br><br><br><br>
+		</div>
+		
+		Zork movement relied on commands such as "move north". We will diverge from this text-based idea of movement.<br><br>
+		
+		With the Google Maps API we can have our character change zones in the game by moving in the real world. This lets us integrate a more interesting user experience without taking away the simplicity of the game, while adding Role-Playing game features such as a procedurally generated level system, character attributes, random items, and random encounters. <br><br>
+		
+		When you die in the game you lose all progress in the game - unless you get to a save location. With the seeded nature of the game, it might make it very different to get to the same place as before. Every experience should be unique. <br><br>
+
+		The overall story of the game is still a secret that we won't be sharing. You'll have to play the game to find out!
+	</div>
 </body>
 </html>
